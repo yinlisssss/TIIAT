@@ -1,4 +1,4 @@
 # TIIAT
- An interactive web server for tumor immune infiltration analysis.
+ An interactive web server for tumor-infiltrating immune cells analysis.
  
- The website is under maintenance.
+ www.biotiiat.com
