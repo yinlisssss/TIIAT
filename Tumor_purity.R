@@ -1,6 +1,7 @@
-OvarianCancerExpr <- system.file("extdata", "sample_input.txt", package="estimate")
-
-OvarianCancerExpr 
+library(utils)
+rforge <- "http://r-forge.r-project.org"
+install.packages("estimate", repos=rforge, dependencies=TRUE)
+library(estimate)
 
 filterCommonGenes1 <- function (input.f, output.f, id = c("GeneSymbol", "EntrezID")) 
 {
