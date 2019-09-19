@@ -89,7 +89,7 @@ for (i in 1:33) {
 
 
 
-
+saveRDS(purity_tumor,'tumor_purity.RData')
 
 
 
